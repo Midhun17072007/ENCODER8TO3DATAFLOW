@@ -1,4 +1,4 @@
-### ENCODER 8TO3 DATAFLOW Modelling
+![Screenshot (23)](https://github.com/user-attachments/assets/77c11677-24d7-4f3c-aed5-7d71b0557b72)### ENCODER 8TO3 DATAFLOW Modelling
 
 **AIM:**
 
@@ -37,17 +37,33 @@ Figure 02  Encoder 8 * 3
 **Procedure**
 
 /* write all the steps invloved */
-
+~~~
 **PROGRAM**
+
+Module enc(a,b,c,y0,y1,y2,y3,y4,y5,y6,y7);
+input a,b,c;
+output y0,y1,y2,y3,y4,y5,y6,y7;
+assign a= ( y4 | y5 | y6 | y7);
+assign b= ( y2 | y3 | y6 | y7);
+assign c= ( y1 | y3 | y5 | y7);
+endmodule
+
+
 
 /* Program for Encoder 8 To 3 in Dataflow Modelling and verify its truth table in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:
+Developed by:MIDHUN S
+RegisterNumber:24001824
 */
-
+~~~
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
+![de5](https://github.com/user-attachments/assets/14187eb7-c14a-4a2f-85e1-3de66200373e)
+
+
 
 **TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
+![de5](https://github.com/user-attachments/assets/779db47a-698b-4143-9a75-316927e424d5)
+
 
 **RESULTS**
 
