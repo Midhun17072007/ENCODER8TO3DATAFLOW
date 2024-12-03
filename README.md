@@ -1,4 +1,4 @@
-![Screenshot (23)](https://github.com/user-attachments/assets/77c11677-24d7-4f3c-aed5-7d71b0557b72)### ENCODER 8TO3 DATAFLOW Modelling
+
 
 **AIM:**
 
@@ -57,12 +57,15 @@ RegisterNumber:24001824
 */
 ~~~
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
-![de5](https://github.com/user-attachments/assets/14187eb7-c14a-4a2f-85e1-3de66200373e)
+![eX 5](https://github.com/user-attachments/assets/bf8696b3-ee1e-45e6-9047-4d56565ba4f8)
+
 
 
 
 **TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
-![de5](https://github.com/user-attachments/assets/779db47a-698b-4143-9a75-316927e424d5)
+![ex5](https://github.com/user-attachments/assets/e44dbbc3-4da6-4201-a91c-c779e38eab71)
+
+
 
 
 **RESULTS**
