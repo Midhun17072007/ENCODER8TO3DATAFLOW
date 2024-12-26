@@ -40,12 +40,12 @@ Figure 02  Encoder 8 * 3
 ~~~
 **PROGRAM**
 
-Module enc(a,b,c,y0,y1,y2,y3,y4,y5,y6,y7);
-input a,b,c;
-output y0,y1,y2,y3,y4,y5,y6,y7;
-assign a= ( y4 | y5 | y6 | y7);
-assign b= ( y2 | y3 | y6 | y7);
-assign c= ( y1 | y3 | y5 | y7);
+Module enc(A0,A1,A2,D0,D1,D2,D3,D4,D5,D6,D7);
+input A0,A1,A2;
+output D0,D1,D2,D3,D4,D5,D6,D7;
+assign A0= ( D4 | D5 | D6 | D7);
+assign A1= ( D2 | D3 | D6 | D7);
+assign A2= ( D1 | D3 | D5 | D7);
 endmodule
 
 
